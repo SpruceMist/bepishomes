@@ -9,7 +9,7 @@ function get_total_price()
     {
         total_amount += get_price(checked_list[i]);
     }
-    document.getElementById("price_tag").innerText = formatter.format(total_amount);
+    document.getElementById("price_tag").innerText = "Total Price: " + formatter.format(total_amount);
 }
 
 function get_price(id)
