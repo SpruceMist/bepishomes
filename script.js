@@ -45,3 +45,33 @@ const formatter = new Intl.NumberFormat('en-US', {
     currency: 'USD',
     minimumFractionDigits: 2
   })
+
+function get_package_ids(n)
+{
+    var id_list = [];
+    var index = 0;
+    for(var i=n; i < ids.length; i+=2)
+    {
+        id_list[index] = ids[i];
+        index += 1;
+    }
+    return id_list;
+}
+
+function select_package_one()
+{
+    id_list = get_package_ids(0);
+    for(var i=0; i < id_list.length; i++)
+    {
+        document.getElementById(id_list[i]).checked = true;
+    }
+}
+
+function select_package_two()
+{
+    id_list = get_package_ids(1);
+    for(var i=0; i < id_list.length; i++)
+    {
+        document.getElementById(id_list[i]).checked = true;
+    }
+}
