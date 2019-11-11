@@ -7,7 +7,7 @@
     <script src = "script.js" type = "text/javascript"></script>
   <head>
 
-  <bodu>
+  <body onload="get_total_price();">
     <img src="bepis_homes.png" alt="Bepis Homes" style="width:367px;height:106px">
     
     <p id="p_tagline"><b><i>bepis homes takes the less out of homeless</i></b></p>
@@ -23,45 +23,44 @@
         <th>Price</th>
       </tr>
       <tr>
-        <td><input id="001" type="radio" name="item_1" checked>Riverwood Cabin</td>
+        <td><input onclick="get_total_price();" id="001" type="radio" name="item_1" checked>Riverwood Cabin</td>
         <td>$165,230</td>
-        <td><input id="002" type="radio" name="item_1" >Legacy Cabin</td>
+        <td><input onclick="get_total_price();" id="002" type="radio" name="item_1" >Legacy Cabin</td>
         <td>$293,038</td>
       </tr>
       <tr>
-        <td><input id="003" type="radio" name="item_2" checked>Land</td>
+        <td><input onclick="get_total_price();" id="003" type="radio" name="item_2" checked>Land</td>
         <td>$37,500</td>
-        <td><input id="004" type="radio" name="item_2">Land</td>
+        <td><input onclick="get_total_price();" id="004" type="radio" name="item_2">Land</td>
         <td>$187,700</td>
       </tr>
       <tr>
-        <td><input id="005" type="radio" name="item_3" checked>Shadowed Oak Flooring</td>
+        <td><input onclick="get_total_price();" id="005" type="radio" name="item_3" checked>Shadowed Oak Flooring</td>
         <td>$250</td>
-        <td><input id="006" type="radio" name="item_3">Saddlewood Flooring</td>
+        <td><input onclick="get_total_price();" id="006" type="radio" name="item_3">Saddlewood Flooring</td>
         <td>$250</td>
       </tr>
       <tr>
-        <td><input id="007" type="radio" name="item_4" checked>Basalt Slate Counter Top</td>
+        <td><input onclick="get_total_price();" id="007" type="radio" name="item_4" checked>Basalt Slate Counter Top</td>
         <td>$200</td>
-        <td><input id="008" type="radio" name="item_4">Milano Amber Counter Top</td>
+        <td><input onclick="get_total_price();" id="008" type="radio" name="item_4">Milano Amber Counter Top</td>
         <td>$200</td>
       </tr>
       <tr>
-        <td><input id="009" type="radio" name="item_5" checked>Frigidaire Fridge</td>
+        <td><input onclick="get_total_price();" id="009" type="radio" name="item_5" checked>Frigidaire Fridge</td>
         <td>$889</td>
-        <td><input id="010" type="radio" name="item_5">Whirlpool Fridge</td>
+        <td><input onclick="get_total_price();" id="010" type="radio" name="item_5">Whirlpool Fridge</td>
         <td>$1,309</td>
       </tr>
       <tr>
-        <td><input id="011" type="radio" name="item_6" checked>Country Cedar Siding</td>
+        <td><input onclick="get_total_price();" id="011" type="radio" name="item_6" checked>Country Cedar Siding</td>
         <td>$300</td>
-        <td><input id="012" type="radio" name="item_6">Fir Pine Siding</td>
+        <td><input onclick="get_total_price();" id="012" type="radio" name="item_6">Fir Pine Siding</td>
         <td>$300</td>
       </tr>
     </table>
-
-    <input type="button" onclick="hello();" name="test" value="click me">
-
+    
+    <p id="price_tag">0</p>
   </body>
 
 </html>

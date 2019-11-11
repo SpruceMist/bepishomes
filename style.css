@@ -28,3 +28,7 @@ table#t01 {
 input {
 	float: right;
 }
+
+#price_tag {
+	font-size: larger;
+}
