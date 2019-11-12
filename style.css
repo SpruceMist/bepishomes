@@ -6,6 +6,11 @@ table, th, td {
 	border: 1px solid black;
 	border-collapse: collapse;
 	font-family: helvetica;
+	font-size: 18px;
+}
+
+p {
+	font-family: helvetica;
 }
 
 th, td {
@@ -17,7 +22,7 @@ th {
 }
 
 table#t01 {
-	width: 40%;
+	width: 45%;
 	background-color: #e1e1d0;
 	margin: 0 auto;
 }
@@ -49,4 +54,5 @@ footer {
     background-color: #d1d1c1;
 	color: #000000;
 	font-family: helvetica;
+	border-radius: 15px;
 }
