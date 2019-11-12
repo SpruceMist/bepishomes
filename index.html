@@ -4,7 +4,6 @@
   <head>
     <title>bepis homes</title>
     <link rel="stylesheet" href="style.css">
-    <script src = "script.js" type = "text/javascript"></script>
   <head>
 
   <body onload="get_total_price();">
@@ -20,50 +19,113 @@
     <table id="t01">
       <caption><caption>
       <tr>
-        <th><input type="button" name="package_one" value="Select All" onclick="select_package_one();get_total_price();">Package One</th>
+        <th><input class="radio" type="button" name="package_one" value="Select All" onclick="select_package_one();get_total_price();">Package One</th>
         <th>Price</th>
-        <th><input type="button" name="package_two" value="Select All" onclick="select_package_two();get_total_price();">Package Two</th>
+        <th><input class="radio" type="button" name="package_two" value="Select All" onclick="select_package_two();get_total_price();">Package Two</th>
         <th>Price</th>
       </tr>
       <tr>
-        <td><input onclick="get_total_price();" id="001" type="radio" name="item_1" checked>Riverwood Cabin</td>
+        <td><input class="picture" type="button" id="pic_1"><input class="radio" onclick="get_total_price();" id="001" type="radio" name="item_1" checked>Riverwood Cabin</td>
         <td>$165,230</td>
-        <td><input onclick="get_total_price();" id="002" type="radio" name="item_1" >Legacy Cabin</td>
+        <td><input class="picture" type="button" id="pic_2"><input class="radio" onclick="get_total_price();" id="002" type="radio" name="item_1" >Legacy Cabin</td>
         <td>$293,038</td>
       </tr>
       <tr>
-        <td><input onclick="get_total_price();" id="003" type="radio" name="item_2" checked>Land</td>
+        <td><input class="picture" type="button" id="pic_3"><input class="radio" onclick="get_total_price();" id="003" type="radio" name="item_2" checked>Land</td>
         <td>$37,500</td>
-        <td><input onclick="get_total_price();" id="004" type="radio" name="item_2">Land</td>
+        <td><input class="picture" type="button" id="pic_4"><input class="radio" onclick="get_total_price();" id="004" type="radio" name="item_2">Land</td>
         <td>$187,700</td>
       </tr>
       <tr>
-        <td><input onclick="get_total_price();" id="005" type="radio" name="item_3" checked>Shadowed Oak Flooring</td>
+        <td><input class="picture" type="button" id="pic_5"><input class="radio" onclick="get_total_price();" id="005" type="radio" name="item_3" checked>Shadowed Oak Flooring</td>
         <td>$250</td>
-        <td><input onclick="get_total_price();" id="006" type="radio" name="item_3">Saddlewood Flooring</td>
+        <td><input class="picture" type="button" id="pic_6"><input class="radio" onclick="get_total_price();" id="006" type="radio" name="item_3">Saddlewood Flooring</td>
         <td>$250</td>
       </tr>
       <tr>
-        <td><input onclick="get_total_price();" id="007" type="radio" name="item_4" checked>Basalt Slate Counter Top</td>
+        <td><input class="picture" type="button" id="pic_7"><input class="radio" onclick="get_total_price();" id="007" type="radio" name="item_4" checked>Basalt Slate Counter Top</td>
         <td>$200</td>
-        <td><input onclick="get_total_price();" id="008" type="radio" name="item_4">Milano Amber Counter Top</td>
+        <td><input class="picture" type="button" id="pic_8"><input class="radio" onclick="get_total_price();" id="008" type="radio" name="item_4">Milano Amber Counter Top</td>
         <td>$200</td>
       </tr>
       <tr>
-        <td><input onclick="get_total_price();" id="009" type="radio" name="item_5" checked>Frigidaire Fridge</td>
+        <td><input class="picture" type="button" id="pic_9"><input class="radio" onclick="get_total_price();" id="009" type="radio" name="item_5" checked>Frigidaire Fridge</td>
         <td>$889</td>
-        <td><input onclick="get_total_price();" id="010" type="radio" name="item_5">Whirlpool Fridge</td>
+        <td><input class="picture" type="button" id="pic_10"><input class="radio" onclick="get_total_price();" id="010" type="radio" name="item_5">Whirlpool Fridge</td>
         <td>$1,309</td>
       </tr>
       <tr>
-        <td><input onclick="get_total_price();" id="011" type="radio" name="item_6" checked>Country Cedar Siding</td>
+        <td><input class="picture" type="button" id="pic_11"><input class="radio" onclick="get_total_price();" id="011" type="radio" name="item_6" checked>Country Cedar Siding</td>
         <td>$300</td>
-        <td><input onclick="get_total_price();" id="012" type="radio" name="item_6">Fir Pine Siding</td>
+        <td><input class="picture" type="button" id="pic_12"><input class="radio" onclick="get_total_price();" id="012" type="radio" name="item_6">Fir Pine Siding</td>
         <td>$300</td>
       </tr>
     </table>
     
     <p id="price_tag">0</p>
+
+    <div class="bg-modal">
+
+        <div class="modal-content" id="mod_1">
+            <div class="close">&times;</div>
+            <img src="bepis_homes.png" alt="bepis homes" style="width:150px;height:50px;">
+          </div>
+    
+          <div class="modal-content" id="mod_2">
+              <div class="close">&times;</div>
+              <img src="bepis_homes.png" alt="bepis homes" style="width:150px;height:50px;">
+          </div>
+    
+          <div class="modal-content" id="mod_3">
+            <div class="close">&times;</div>
+            <img src="bepis_homes.png" alt="bepis homes" style="width:150px;height:50px;">
+          </div>            
+          
+          <div class="modal-content" id="mod_4">
+              <div class="close">&times;</div>
+              <img src="bepis_homes.png" alt="bepis homes" style="width:150px;height:50px;">
+          </div>
+      
+          <div class="modal-content" id="mod_5">
+                <div class="close">&times;</div>
+                <img src="bepis_homes.png" alt="bepis homes" style="width:150px;height:50px;">
+          </div>
+      
+          <div class="modal-content" id="mod_6">
+              <div class="close">&times;</div>
+              <img src="bepis_homes.png" alt="bepis homes" style="width:150px;height:50px;">
+          </div>         
+          
+          <div class="modal-content" id="mod_7">
+              <div class="close">&times;</div>
+              <img src="bepis_homes.png" alt="bepis homes" style="width:150px;height:50px;">
+          </div>
+      
+          <div class="modal-content" id="mod_8">
+                <div class="close">&times;</div>
+                <img src="bepis_homes.png" alt="bepis homes" style="width:150px;height:50px;">
+          </div>
+      
+          <div class="modal-content" id="mod_9">
+              <div class="close">&times;</div>
+              <img src="bepis_homes.png" alt="bepis homes" style="width:150px;height:50px;">
+          </div>            
+            
+          <div class="modal-content" id="mod_10">
+                <div class="close">&times;</div>
+                <img src="bepis_homes.png" alt="bepis homes" style="width:150px;height:50px;">
+          </div>
+        
+          <div class="modal-content" id="mod_11">
+                  <div class="close">&times;</div>
+                  <img src="bepis_homes.png" alt="bepis homes" style="width:150px;height:50px;">
+          </div>
+        
+          <div class="modal-content" id="mod_12">
+                <div class="close">&times;</div>
+                <img src="bepis_homes.png" alt="bepis homes" style="width:150px;height:50px;">
+          </div>      
+    </div>
 
     <footer>
         <pre><b>email:</b> bepishomes@bepis.com   </pre>
@@ -72,5 +134,7 @@
     </footer>
 
   </body>
+  <script src = "script.js" type = "text/javascript"></script>
+
 
 </html>

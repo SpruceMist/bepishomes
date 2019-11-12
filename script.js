@@ -75,3 +75,71 @@ function select_package_two()
         document.getElementById(id_list[i]).checked = true;
     }
 }
+
+window.onload=function() 
+{
+  this.get_total_price();  
+}
+
+var t = document.querySelectorAll(".close");
+for(var i=0;i<t.length;i++)
+{
+    t[i].addEventListener("click", function() {
+        document.querySelector(".bg-modal").style.display = "none";
+    
+        var m = document.querySelectorAll(".modal-content");
+        for(var i=0; i < m.length; i++)
+        {
+            m[i].style.display = "none";
+        }
+    });
+}
+
+document.getElementById("pic_1").addEventListener("click", function() { 
+    document.querySelector(".bg-modal").style.display = 'flex';
+    document.getElementById("mod_1").style.display = 'flex';
+});
+document.getElementById("pic_2").addEventListener("click", function() { 
+    document.querySelector(".bg-modal").style.display = 'flex';
+    document.getElementById("mod_2").style.display = 'flex';
+});
+document.getElementById("pic_3").addEventListener("click", function() { 
+    document.querySelector(".bg-modal").style.display = 'flex';
+    document.getElementById("mod_3").style.display = 'flex';
+});
+document.getElementById("pic_4").addEventListener("click", function() { 
+    document.querySelector(".bg-modal").style.display = 'flex';
+    document.getElementById("mod_4").style.display = 'flex';
+});
+document.getElementById("pic_5").addEventListener("click", function() { 
+    document.querySelector(".bg-modal").style.display = 'flex';
+    document.getElementById("mod_5").style.display = 'flex';
+});
+document.getElementById("pic_6").addEventListener("click", function() { 
+    document.querySelector(".bg-modal").style.display = 'flex';
+    document.getElementById("mod_6").style.display = 'flex';
+});
+document.getElementById("pic_7").addEventListener("click", function() { 
+    document.querySelector(".bg-modal").style.display = 'flex';
+    document.getElementById("mod_7").style.display = 'flex';
+});
+document.getElementById("pic_8").addEventListener("click", function() { 
+    document.querySelector(".bg-modal").style.display = 'flex';
+    document.getElementById("mod_8").style.display = 'flex';
+});
+document.getElementById("pic_9").addEventListener("click", function() { 
+    document.querySelector(".bg-modal").style.display = 'flex';
+    document.getElementById("mod_9").style.display = 'flex';
+});
+document.getElementById("pic_10").addEventListener("click", function() { 
+    document.querySelector(".bg-modal").style.display = 'flex';
+    document.getElementById("mod_10").style.display = 'flex';
+});
+document.getElementById("pic_11").addEventListener("click", function() { 
+    document.querySelector(".bg-modal").style.display = 'flex';
+    document.getElementById("mod_11").style.display = 'flex';
+});
+document.getElementById("pic_12").addEventListener("click", function() { 
+    document.querySelector(".bg-modal").style.display = 'flex';
+    document.getElementById("mod_12").style.display = 'flex';
+});
