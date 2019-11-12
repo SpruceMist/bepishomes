@@ -1,5 +1,9 @@
 body {
-	background-color: #ebebe0;
+	background-image: url("pictures/background.jpg");
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	height: 900px;
 }
 
 table, th, td {
