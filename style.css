@@ -114,3 +114,10 @@ footer {
 	left: 44%;
 	top: 60%;
 }
+
+.floorplan {
+	height: 50px;
+	position: relative;
+	top: 50px;
+	right: -5px;
+}

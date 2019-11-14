@@ -143,3 +143,13 @@ document.getElementById("pic_12").addEventListener("click", function() {
     document.querySelector(".bg-modal").style.display = 'flex';
     document.getElementById("mod_12").style.display = 'flex';
 });
+
+var images = ["pictures/img-1.jpg","pictures/img-2.jpg"];
+
+function display_next_image_1() {
+    if ("pictures/img-1.jpg" == document.getElementById("image-1").src) {
+        document.getElementById("image-1").src = "pictures/img-11";
+    } else {
+        document.getElementById("image-1").src = "pictures/img-1";
+    }
+}
