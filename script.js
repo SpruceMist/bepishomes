@@ -155,9 +155,9 @@ function display_next_image_1() {
 }
 
 function display_next_image_2() {
-    if ("pictures/img-2.jpg" == document.getElementById("image-1").src.substring(40)) {
-        document.getElementById("image-1").src = "pictures/img-14.png";
+    if ("pictures/img-2.jpg" == document.getElementById("image-2").src.substring(40)) {
+        document.getElementById("image-2").src = "pictures/img-14.png";
         } else {
-        document.getElementById("image-1").src = "pictures/img-2.jpg";
+        document.getElementById("image-2").src = "pictures/img-2.jpg";
     }
 }
