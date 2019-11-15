@@ -148,8 +148,16 @@ var images = ["pictures/img-1.jpg","pictures/img-2.jpg"];
 
 function display_next_image_1() {
     if ("pictures/img-1.jpg" == document.getElementById("image-1").src.substring(40)) {
-        document.getElementById("image-1").src = "pictures/img-11.jpg";
-    } else {
+        document.getElementById("image-1").src = "pictures/img-13.png";
+        } else {
         document.getElementById("image-1").src = "pictures/img-1.jpg";
+    }
+}
+
+function display_next_image_2() {
+    if ("pictures/img-2.jpg" == document.getElementById("image-1").src.substring(40)) {
+        document.getElementById("image-1").src = "pictures/img-14.png";
+        } else {
+        document.getElementById("image-1").src = "pictures/img-2.jpg";
     }
 }
