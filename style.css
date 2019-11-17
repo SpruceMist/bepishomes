@@ -30,6 +30,7 @@ table#t01 {
 	width: 65%;
 	background-color: #e1e1d0;
 	margin: 0 auto;
+	margin-top: 5%;
 }
 
 #p_tagline {
@@ -148,4 +149,22 @@ footer {
 	text-align: center;
 	background-color: burlywood;
 	margin: 5% auto 50px auto;
+}
+
+.gant_chart {
+	width: 850px;
+	height: 290px;
+	border: 2px solid brown;
+	background-color: burlywood;
+	margin: 5% auto 50px auto;
+	text-align: center;
+}
+
+header {
+	background-color: #ccc;
+	padding: 5px;
+	font-size: 15px;
+	text-align: center;
+	color: black;
+	font-family: helvetica;
 }
