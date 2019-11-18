@@ -127,7 +127,7 @@ footer {
 	align-items: center;
 	margin: 5% auto 50px auto;
 	width: 700px;
-	height: 600px;
+	height: 630px;
 	border: 2px solid brown;
 	background-color: burlywood;
 	font-family: helvetica;
@@ -135,7 +135,7 @@ footer {
 
 .pie_chart_one {
 	width: 850px;
-	height: 580px;
+	height: 600px;
 	border: 2px solid brown;
 	text-align: center;
 	background-color: burlywood;
@@ -144,7 +144,7 @@ footer {
 
 .pie_chart_two {
 	width: 850px;
-	height: 580px;
+	height: 600px;
 	border: 2px solid brown;
 	text-align: center;
 	background-color: burlywood;
@@ -153,7 +153,7 @@ footer {
 
 .gant_chart {
 	width: 850px;
-	height: 290px;
+	height: 330px;
 	border: 2px solid brown;
 	background-color: burlywood;
 	margin: 5% auto 50px auto;
